@@ -1,0 +1,26 @@
+[project]
+name = "text-tools"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "sefrto01",email = "francesco.tomassini@susa.it"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "text_tools", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+text-tools = "text_tools.cli:main"
+
+[dependency-groups]
+dev = [
+    "pytest (>=9.1.0,<10.0.0)"
+]
