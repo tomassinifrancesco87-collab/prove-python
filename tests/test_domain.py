@@ -7,8 +7,8 @@ def test_word_count_basic():
 
 def test_char_count_basic():
     risultato = char_count("ciao mondo")
-    assert risultato == 9
+    assert risultato == 9 #9
 
 def test_reverse_basic():
     risultato = reverse("ciao")
-    assert risultato == ("oaic")
+    assert risultato == ("oaic") #oaicc
