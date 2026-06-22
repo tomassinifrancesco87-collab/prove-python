@@ -11,4 +11,4 @@ def test_char_count_basic():
 
 def test_reverse_basic():
     risultato = reverse("ciao")
-    assert risultato == ("oai")
+    assert risultato == ("oaic")
